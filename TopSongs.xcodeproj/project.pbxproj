@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		359ED9DCF8CBE390C0BDDED1 /* Pods_iTunesTopCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FFAA2C5B7094E0E8DEC787 /* Pods_iTunesTopCharts.framework */; };
+		952CCA5E2150CA58000FFA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952CCA5D2150CA58000FFA82 /* AppDelegate.swift */; };
+		952CCA602150CA58000FFA82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952CCA5F2150CA58000FFA82 /* ViewController.swift */; };
+		952CCA632150CA58000FFA82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952CCA612150CA58000FFA82 /* Main.storyboard */; };
+		952CCA652150CA5E000FFA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952CCA642150CA5E000FFA82 /* Assets.xcassets */; };
+		952CCA682150CA5E000FFA82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952CCA662150CA5E000FFA82 /* LaunchScreen.storyboard */; };
+		952CCA6E2150CA7E000FFA82 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952CCA6D2150CA7E000FFA82 /* AppHelper.swift */; };
+		952CCA6F2150CA7E000FFA82 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952CCA6D2150CA7E000FFA82 /* AppHelper.swift */; };
+		952CCA732150D15C000FFA82 /* Reachibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 952CCA722150D15C000FFA82 /* Reachibility.m */; };
+		952CCA742150D15C000FFA82 /* Reachibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 952CCA722150D15C000FFA82 /* Reachibility.m */; };
+		952CCA7D2150D91D000FFA82 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 952CCA7B2150D91C000FFA82 /* sqlite3.c */; };
+		952CCA7E2150D91D000FFA82 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 952CCA7B2150D91C000FFA82 /* sqlite3.c */; };
+		954D28C32150DD4B002209A6 /* TopSongsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954D28C22150DD4B002209A6 /* TopSongsCache.swift */; };
+		954D28C52150ED33002209A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954D28C42150ED33002209A6 /* Constants.swift */; };
 		958F12FF1FC0A86C0026F114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F12FE1FC0A86C0026F114 /* AppDelegate.swift */; };
 		958F13011FC0A86C0026F114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F13001FC0A86C0026F114 /* ViewController.swift */; };
 		958F13041FC0A86C0026F114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958F13021FC0A86C0026F114 /* Main.storyboard */; };
 		958F13061FC0A86C0026F114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958F13051FC0A86C0026F114 /* Assets.xcassets */; };
 		958F13091FC0A86C0026F114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958F13071FC0A86C0026F114 /* LaunchScreen.storyboard */; };
+		9C91C0109AF0C15A8653A4B9 /* Pods_TopSongs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933E3FE349002DD3E4847FDB /* Pods_TopSongs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00E619C4CEC1A0AF8DC650B9 /* Pods-iTunesTopCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesTopCharts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesTopCharts/Pods-iTunesTopCharts.debug.xcconfig"; sourceTree = "<group>"; };
+		41FFAA2C5B7094E0E8DEC787 /* Pods_iTunesTopCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesTopCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		517E7D0DC4FA0C21AE9E5862 /* Pods-TopSongs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopSongs.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopSongs/Pods-TopSongs.release.xcconfig"; sourceTree = "<group>"; };
+		64CB94750DFB987A14BEFBAF /* Pods-TopSongs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopSongs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopSongs/Pods-TopSongs.debug.xcconfig"; sourceTree = "<group>"; };
+		6B40E06BD1F7FA527573367D /* Pods-iTunesTopCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesTopCharts.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesTopCharts/Pods-iTunesTopCharts.release.xcconfig"; sourceTree = "<group>"; };
+		933E3FE349002DD3E4847FDB /* Pods_TopSongs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopSongs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		952CCA5B2150CA58000FFA82 /* iTunesTopCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesTopCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		952CCA5D2150CA58000FFA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		952CCA5F2150CA58000FFA82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		952CCA622150CA58000FFA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		952CCA642150CA5E000FFA82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		952CCA672150CA5E000FFA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		952CCA692150CA5E000FFA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952CCA6D2150CA7E000FFA82 /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		952CCA702150D15C000FFA82 /* TopSongs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopSongs-Bridging-Header.h"; sourceTree = "<group>"; };
+		952CCA712150D15C000FFA82 /* iTunesTopCharts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesTopCharts-Bridging-Header.h"; sourceTree = "<group>"; };
+		952CCA722150D15C000FFA82 /* Reachibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachibility.m; sourceTree = "<group>"; };
+		952CCA772150D447000FFA82 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		952CCA792150D91B000FFA82 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		952CCA7A2150D91B000FFA82 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
+		952CCA7B2150D91C000FFA82 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		954D28C22150DD4B002209A6 /* TopSongsCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSongsCache.swift; sourceTree = "<group>"; };
+		954D28C42150ED33002209A6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		958F12FB1FC0A86C0026F114 /* TopSongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopSongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		958F12FE1FC0A86C0026F114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		958F13001FC0A86C0026F114 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,21 +63,78 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		952CCA582150CA58000FFA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359ED9DCF8CBE390C0BDDED1 /* Pods_iTunesTopCharts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		958F12F81FC0A86B0026F114 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C91C0109AF0C15A8653A4B9 /* Pods_TopSongs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77E421C4E0B09673B7CBE327 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				933E3FE349002DD3E4847FDB /* Pods_TopSongs.framework */,
+				41FFAA2C5B7094E0E8DEC787 /* Pods_iTunesTopCharts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		952CCA5C2150CA58000FFA82 /* iTunesTopCharts */ = {
+			isa = PBXGroup;
+			children = (
+				952CCA712150D15C000FFA82 /* iTunesTopCharts-Bridging-Header.h */,
+				952CCA5D2150CA58000FFA82 /* AppDelegate.swift */,
+				952CCA5F2150CA58000FFA82 /* ViewController.swift */,
+				952CCA612150CA58000FFA82 /* Main.storyboard */,
+				952CCA642150CA5E000FFA82 /* Assets.xcassets */,
+				952CCA662150CA5E000FFA82 /* LaunchScreen.storyboard */,
+				952CCA692150CA5E000FFA82 /* Info.plist */,
+			);
+			path = iTunesTopCharts;
+			sourceTree = "<group>";
+		};
+		952CCA782150D906000FFA82 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				952CCA7B2150D91C000FFA82 /* sqlite3.c */,
+				952CCA792150D91B000FFA82 /* sqlite3.h */,
+				952CCA7A2150D91B000FFA82 /* sqlite3ext.h */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		954D28C12150DD2C002209A6 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				954D28C22150DD4B002209A6 /* TopSongsCache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
 		958F12F21FC0A86B0026F114 = {
 			isa = PBXGroup;
 			children = (
+				954D28C42150ED33002209A6 /* Constants.swift */,
+				952CCA772150D447000FFA82 /* Reachability.h */,
+				952CCA6D2150CA7E000FFA82 /* AppHelper.swift */,
+				952CCA722150D15C000FFA82 /* Reachibility.m */,
 				958F12FD1FC0A86C0026F114 /* TopSongs */,
+				952CCA5C2150CA58000FFA82 /* iTunesTopCharts */,
 				958F12FC1FC0A86C0026F114 /* Products */,
+				F16951A27E8916710E65389D /* Pods */,
+				77E421C4E0B09673B7CBE327 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				958F12FB1FC0A86C0026F114 /* TopSongs.app */,
+				952CCA5B2150CA58000FFA82 /* iTunesTopCharts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +150,8 @@
 		958F12FD1FC0A86C0026F114 /* TopSongs */ = {
 			isa = PBXGroup;
 			children = (
+				954D28C12150DD2C002209A6 /* Cache */,
+				952CCA782150D906000FFA82 /* SQLite */,
 				958F13141FC0A8C90026F114 /* Objective-C */,
 				958F13131FC0A8BB0026F114 /* Controller */,
 				958F13121FC0A8B30026F114 /* View */,
@@ -66,6 +164,7 @@
 		958F13101FC0A89B0026F114 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				952CCA702150D15C000FFA82 /* TopSongs-Bridging-Header.h */,
 				958F12FE1FC0A86C0026F114 /* AppDelegate.swift */,
 				958F13051FC0A86C0026F114 /* Assets.xcassets */,
 				958F13071FC0A86C0026F114 /* LaunchScreen.storyboard */,
@@ -104,16 +203,48 @@
 			name = "Objective-C";
 			sourceTree = "<group>";
 		};
+		F16951A27E8916710E65389D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64CB94750DFB987A14BEFBAF /* Pods-TopSongs.debug.xcconfig */,
+				517E7D0DC4FA0C21AE9E5862 /* Pods-TopSongs.release.xcconfig */,
+				00E619C4CEC1A0AF8DC650B9 /* Pods-iTunesTopCharts.debug.xcconfig */,
+				6B40E06BD1F7FA527573367D /* Pods-iTunesTopCharts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		952CCA5A2150CA58000FFA82 /* iTunesTopCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952CCA6A2150CA5E000FFA82 /* Build configuration list for PBXNativeTarget "iTunesTopCharts" */;
+			buildPhases = (
+				D8ED734B932ED17940478D9E /* [CP] Check Pods Manifest.lock */,
+				952CCA572150CA58000FFA82 /* Sources */,
+				952CCA582150CA58000FFA82 /* Frameworks */,
+				952CCA592150CA58000FFA82 /* Resources */,
+				DDE9D2D08EE786984105C4CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesTopCharts;
+			productName = iTunesTopCharts;
+			productReference = 952CCA5B2150CA58000FFA82 /* iTunesTopCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
 		958F12FA1FC0A86B0026F114 /* TopSongs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 958F130D1FC0A86C0026F114 /* Build configuration list for PBXNativeTarget "TopSongs" */;
 			buildPhases = (
+				9F84F55CFB1040237D18551A /* [CP] Check Pods Manifest.lock */,
 				958F12F71FC0A86B0026F114 /* Sources */,
 				958F12F81FC0A86B0026F114 /* Frameworks */,
 				958F12F91FC0A86B0026F114 /* Resources */,
+				D3DA0B0929C383FD5A30E91B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,14 +261,20 @@
 		958F12F31FC0A86B0026F114 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0920;
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Nikhil Arora";
 				TargetAttributes = {
+					952CCA5A2150CA58000FFA82 = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = MPK2R9DHW8;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
 					958F12FA1FC0A86B0026F114 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = MTG9WG4TRR;
-						LastSwiftMigration = 0920;
+						DevelopmentTeam = MPK2R9DHW8;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -156,11 +293,22 @@
 			projectRoot = "";
 			targets = (
 				958F12FA1FC0A86B0026F114 /* TopSongs */,
+				952CCA5A2150CA58000FFA82 /* iTunesTopCharts */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		952CCA592150CA58000FFA82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952CCA682150CA5E000FFA82 /* LaunchScreen.storyboard in Resources */,
+				952CCA652150CA5E000FFA82 /* Assets.xcassets in Resources */,
+				952CCA632150CA58000FFA82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		958F12F91FC0A86B0026F114 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,19 +321,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F84F55CFB1040237D18551A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopSongs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3DA0B0929C383FD5A30E91B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TopSongs/Pods-TopSongs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS10.2/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS10.2/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopSongs/Pods-TopSongs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8ED734B932ED17940478D9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTunesTopCharts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE9D2D08EE786984105C4CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iTunesTopCharts/Pods-iTunesTopCharts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS12.0/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS12.0/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTunesTopCharts/Pods-iTunesTopCharts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		952CCA572150CA58000FFA82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952CCA602150CA58000FFA82 /* ViewController.swift in Sources */,
+				952CCA6F2150CA7E000FFA82 /* AppHelper.swift in Sources */,
+				952CCA742150D15C000FFA82 /* Reachibility.m in Sources */,
+				952CCA5E2150CA58000FFA82 /* AppDelegate.swift in Sources */,
+				952CCA7E2150D91D000FFA82 /* sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		958F12F71FC0A86B0026F114 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				958F13011FC0A86C0026F114 /* ViewController.swift in Sources */,
+				952CCA6E2150CA7E000FFA82 /* AppHelper.swift in Sources */,
+				952CCA732150D15C000FFA82 /* Reachibility.m in Sources */,
 				958F12FF1FC0A86C0026F114 /* AppDelegate.swift in Sources */,
+				954D28C52150ED33002209A6 /* Constants.swift in Sources */,
+				952CCA7D2150D91D000FFA82 /* sqlite3.c in Sources */,
+				954D28C32150DD4B002209A6 /* TopSongsCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		952CCA612150CA58000FFA82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952CCA622150CA58000FFA82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		952CCA662150CA5E000FFA82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952CCA672150CA5E000FFA82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		958F13021FC0A86C0026F114 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -205,6 +465,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		952CCA6B2150CA5E000FFA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E619C4CEC1A0AF8DC650B9 /* Pods-iTunesTopCharts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPK2R9DHW8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = iTunesTopCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledi.iTunesTopCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iTunesTopCharts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		952CCA6C2150CA5E000FFA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B40E06BD1F7FA527573367D /* Pods-iTunesTopCharts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPK2R9DHW8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = iTunesTopCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledi.iTunesTopCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iTunesTopCharts-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		958F130B1FC0A86C0026F114 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -218,6 +536,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -225,6 +544,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -273,6 +593,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -280,6 +601,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -310,28 +632,35 @@
 		};
 		958F130E1FC0A86C0026F114 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CB94750DFB987A14BEFBAF /* Pods-TopSongs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MTG9WG4TRR;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MPK2R9DHW8;
 				INFOPLIST_FILE = TopSongs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uneqqee.TopSongs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/nikhilarora/Documents/MobileDI_Projects/TopSongs/TopSongs/TopSongs-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		958F130F1FC0A86C0026F114 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517E7D0DC4FA0C21AE9E5862 /* Pods-TopSongs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MTG9WG4TRR;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MPK2R9DHW8;
 				INFOPLIST_FILE = TopSongs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uneqqee.TopSongs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/nikhilarora/Documents/MobileDI_Projects/TopSongs/TopSongs/TopSongs-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -339,6 +668,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		952CCA6A2150CA5E000FFA82 /* Build configuration list for PBXNativeTarget "iTunesTopCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952CCA6B2150CA5E000FFA82 /* Debug */,
+				952CCA6C2150CA5E000FFA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		958F12F61FC0A86B0026F114 /* Build configuration list for PBXProject "TopSongs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
