@@ -15,5 +15,9 @@ pod 'SwiftLint'
 pod 'ReachabilitySwift'
 pod 'AlamofireNetworkActivityLogger'
 pod 'Luminous'
+pod 'Firebase/Core'
+pod 'Fabric'
+pod 'Crashlytics'
+
 
 end

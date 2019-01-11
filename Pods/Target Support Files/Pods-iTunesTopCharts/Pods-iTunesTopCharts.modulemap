@@ -1,0 +1,6 @@
+framework module Pods_iTunesTopCharts {
+  umbrella header "Pods-iTunesTopCharts-umbrella.h"
+
+  export *
+  module * { export * }
+}

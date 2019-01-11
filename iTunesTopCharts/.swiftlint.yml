@@ -1,0 +1,18 @@
+disabled_rules: # rule identifiers to exclude from running
+ - trailing_whitespace
+ - legacy_constructor
+ - line_length
+ - multiple_closures_with_trailing_closure
+ #- function_body_length
+ - identifier_name
+ - syntactic_sugar
+ - force_cast
+ - discouraged_direct_init
+ - type_body_length
+ - file_length
+ - for_where
+ - cyclomatic_complexity
+ - unused_enumerated
+ - empty_enum_arguments
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+ - Pods

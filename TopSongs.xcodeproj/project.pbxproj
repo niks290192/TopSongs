@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		359ED9DCF8CBE390C0BDDED1 /* Pods_iTunesTopCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FFAA2C5B7094E0E8DEC787 /* Pods_iTunesTopCharts.framework */; };
 		952CCA5E2150CA58000FFA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952CCA5D2150CA58000FFA82 /* AppDelegate.swift */; };
-		952CCA602150CA58000FFA82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952CCA5F2150CA58000FFA82 /* ViewController.swift */; };
 		952CCA632150CA58000FFA82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952CCA612150CA58000FFA82 /* Main.storyboard */; };
 		952CCA652150CA5E000FFA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952CCA642150CA5E000FFA82 /* Assets.xcassets */; };
 		952CCA682150CA5E000FFA82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952CCA662150CA5E000FFA82 /* LaunchScreen.storyboard */; };
 		952CCA6F2150CA7E000FFA82 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952CCA6D2150CA7E000FFA82 /* AppHelper.swift */; };
+		958DFFEF21E79A5800CB1335 /* AppleMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958DFFEE21E79A5800CB1335 /* AppleMusic.swift */; };
+		958DFFF121E79E4500CB1335 /* AppleMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958DFFF021E79E4500CB1335 /* AppleMusicViewController.swift */; };
+		958DFFF321E7A4E800CB1335 /* iTunes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958DFFF221E7A4E800CB1335 /* iTunes.swift */; };
 		95C62BEF21E62D2E0061423F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954D28C42150ED33002209A6 /* Constants.swift */; };
+		95C62BF121E78DB50061423F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95C62BF021E78DB50061423F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +29,6 @@
 		933E3FE349002DD3E4847FDB /* Pods_TopSongs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopSongs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		952CCA5B2150CA58000FFA82 /* iTunesTopCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesTopCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		952CCA5D2150CA58000FFA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		952CCA5F2150CA58000FFA82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		952CCA622150CA58000FFA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		952CCA642150CA5E000FFA82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		952CCA672150CA5E000FFA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +36,10 @@
 		952CCA6D2150CA7E000FFA82 /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
 		952CCA712150D15C000FFA82 /* iTunesTopCharts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesTopCharts-Bridging-Header.h"; sourceTree = "<group>"; };
 		954D28C42150ED33002209A6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		958DFFEE21E79A5800CB1335 /* AppleMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic.swift; sourceTree = "<group>"; };
+		958DFFF021E79E4500CB1335 /* AppleMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicViewController.swift; sourceTree = "<group>"; };
+		958DFFF221E7A4E800CB1335 /* iTunes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunes.swift; sourceTree = "<group>"; };
+		95C62BF021E78DB50061423F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +66,68 @@
 		952CCA5C2150CA58000FFA82 /* iTunesTopCharts */ = {
 			isa = PBXGroup;
 			children = (
+				958DFFEB21E7932A00CB1335 /* SupportingFiles */,
+				958DFFEA21E792A900CB1335 /* Storyboards */,
+				958DFFE921E7929E00CB1335 /* Extensions */,
+				958DFFE821E7927000CB1335 /* Digest */,
+				958DFFE721E7926400CB1335 /* Views */,
+				958DFFE621E7925A00CB1335 /* Helper */,
 				95C62BEE21E62D0B0061423F /* Obj-C */,
-				952CCA5D2150CA58000FFA82 /* AppDelegate.swift */,
-				954D28C42150ED33002209A6 /* Constants.swift */,
-				952CCA6D2150CA7E000FFA82 /* AppHelper.swift */,
-				952CCA5F2150CA58000FFA82 /* ViewController.swift */,
-				952CCA612150CA58000FFA82 /* Main.storyboard */,
-				952CCA642150CA5E000FFA82 /* Assets.xcassets */,
-				952CCA662150CA5E000FFA82 /* LaunchScreen.storyboard */,
-				952CCA692150CA5E000FFA82 /* Info.plist */,
 			);
 			path = iTunesTopCharts;
+			sourceTree = "<group>";
+		};
+		958DFFE621E7925A00CB1335 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				954D28C42150ED33002209A6 /* Constants.swift */,
+				952CCA6D2150CA7E000FFA82 /* AppHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		958DFFE721E7926400CB1335 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				958DFFF021E79E4500CB1335 /* AppleMusicViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		958DFFE821E7927000CB1335 /* Digest */ = {
+			isa = PBXGroup;
+			children = (
+				958DFFEE21E79A5800CB1335 /* AppleMusic.swift */,
+				958DFFF221E7A4E800CB1335 /* iTunes.swift */,
+			);
+			path = Digest;
+			sourceTree = "<group>";
+		};
+		958DFFE921E7929E00CB1335 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		958DFFEA21E792A900CB1335 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				952CCA612150CA58000FFA82 /* Main.storyboard */,
+				952CCA662150CA5E000FFA82 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		958DFFEB21E7932A00CB1335 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				952CCA5D2150CA58000FFA82 /* AppDelegate.swift */,
+				952CCA692150CA5E000FFA82 /* Info.plist */,
+				95C62BF021E78DB50061423F /* GoogleService-Info.plist */,
+				952CCA642150CA5E000FFA82 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		958F12F21FC0A86B0026F114 = {
@@ -123,6 +180,7 @@
 				952CCA592150CA58000FFA82 /* Resources */,
 				DDE9D2D08EE786984105C4CD /* [CP] Embed Pods Frameworks */,
 				4B549486CB731EC138422C0E /* [CP] Copy Pods Resources */,
+				958DFFED21E7976200CB1335 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -175,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				952CCA682150CA5E000FFA82 /* LaunchScreen.storyboard in Resources */,
+				95C62BF121E78DB50061423F /* GoogleService-Info.plist in Resources */,
 				952CCA652150CA5E000FFA82 /* Assets.xcassets in Resources */,
 				952CCA632150CA58000FFA82 /* Main.storyboard in Resources */,
 			);
@@ -197,6 +256,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTunesTopCharts/Pods-iTunesTopCharts-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		958DFFED21E7976200CB1335 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
 		};
 		D8ED734B932ED17940478D9E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -226,6 +303,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.framework",
 				"${BUILT_PRODUCTS_DIR}/Deviice/Deviice.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Luminous/Luminous.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
@@ -233,12 +311,14 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityLogger.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Deviice.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Luminous.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
@@ -246,6 +326,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -259,9 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				952CCA602150CA58000FFA82 /* ViewController.swift in Sources */,
+				958DFFF121E79E4500CB1335 /* AppleMusicViewController.swift in Sources */,
+				958DFFF321E7A4E800CB1335 /* iTunes.swift in Sources */,
 				952CCA6F2150CA7E000FFA82 /* AppHelper.swift in Sources */,
 				952CCA5E2150CA58000FFA82 /* AppDelegate.swift in Sources */,
+				958DFFEF21E79A5800CB1335 /* AppleMusic.swift in Sources */,
 				95C62BEF21E62D2E0061423F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,14 +387,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPK2R9DHW8;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = iTunesTopCharts/Info.plist;
+				INFOPLIST_FILE = /Users/nikhilarora/Documents/GitHub/TopSongs/iTunesTopCharts/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledi.iTunesTopCharts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uneqqee.hitsAnalyzier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "iTunesTopCharts-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/nikhilarora/Documents/GitHub/TopSongs/iTunesTopCharts/Obj-C/iTunesTopCharts-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,13 +417,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPK2R9DHW8;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = iTunesTopCharts/Info.plist;
+				INFOPLIST_FILE = /Users/nikhilarora/Documents/GitHub/TopSongs/iTunesTopCharts/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledi.iTunesTopCharts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uneqqee.hitsAnalyzier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "iTunesTopCharts-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/nikhilarora/Documents/GitHub/TopSongs/iTunesTopCharts/Obj-C/iTunesTopCharts-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

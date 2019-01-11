@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>902831744260-kv3sfgk7g0riem70sfqksie7ptfv7b9s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.902831744260-kv3sfgk7g0riem70sfqksie7ptfv7b9s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAzDAkx7UTowbjS2D9AZie5URwEfrkKsfU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>902831744260</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.uneqqee.hitsAnalyzier</string>
+	<key>PROJECT_ID</key>
+	<string>hitsanalyzier</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hitsanalyzier.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:902831744260:ios:5c03bc17dcfe90bd</string>
+	<key>DATABASE_URL</key>
+	<string>https://hitsanalyzier.firebaseio.com</string>
+</dict>
+</plist>

@@ -6,6 +6,6 @@
 #ifndef iTunesTopCharts_Bridging_Header_h
 #define iTunesTopCharts_Bridging_Header_h
 
-#import "Reachability.h"
+
 
 #endif
