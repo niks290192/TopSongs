@@ -13,6 +13,11 @@ class AppHelper:NSObject {
     
     static let sharedInstance = AppHelper()
     
+    class func categoriesArray() -> [String] {
+        let categories = ["Music"]
+        return categories
+    }
+    
     class func saveToUserDefault(value:String, key:String) {
         UserDefaults.standard.set(value, forKey:key)
         UserDefaults.standard.synchronize()
